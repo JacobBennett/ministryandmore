@@ -1,0 +1,19 @@
+.sflb_section .lnkbtn {
+	margin: .1em .1em;
+	padding: .75em 1em;
+	line-height: 1em;/*in case wrap. padding minus.*/
+	background:#999;
+	color: #FFF;
+	display: inline-block; /*no split?*/
+	text-decoration: none;
+	border: .2em solid transparent;/*filled in with any set border color*/
+	max-width:100%;
+}
+.lnkbtn[style*="width"] {
+	text-align:center;
+}
+.lnkbtn.Rectangle {
+}
+.lnkbtn.Rounded {
+	border-radius: 1.5em;
+}
